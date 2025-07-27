@@ -15,8 +15,8 @@ case "$1" in
     echo "[+] Reset berhasil!"
     ;;
   *)
-    echo "Penggunaan: sh $0 -apply | -reset"
+    echo "Penggunaan: sh script.sh -apply | -reset"
     echo "  -apply : Set ukuran layar ke 1000x2300 & density 444"
     echo "  -reset : Reset ukuran dan density layar ke default"
     ;;
-esa
+esac
